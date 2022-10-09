@@ -1,0 +1,31 @@
+* {
+    font-family: cursive;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+#sample {
+    text-transform: uppercase;
+}
+
+.languages {
+    background-color: yellowgreen;
+}
+
+div p img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+div ~ p{
+    text-align: right;
+}
+
+div > ul {
+    letter-spacing: 10px;
+}
