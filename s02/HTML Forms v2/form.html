@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+    </style>
+    
+</head>
+
+<body>
+    <b>
+    <h1>ABC Company IT Support Request Form</h1>
+
+    <form action="">
+
+        <p>
+          <label for="fname">First Name :</label>
+          <input type="text" name="fname" id="fname" size="65">
+        </p>
+
+        <p>
+          <label for="lname">Last Name :</label>
+          <input type="text" name="lname" id="lname" size="65">
+        </p>
+
+        <p>
+            <label for="emailAdd">Email Address :</label>
+            <input type="text" name="emailAdd" id="emailAdd" size="62">
+        </p>
+
+        <p>
+            <label for="contactNum">Contact Number :</label>
+            <input type="text" name="contactNum" id="contactNum" placeholder="Enter you complete phone number with extension or mobile number" size="60">
+        </p>
+
+        <p>
+            <input type="radio" id="empType" name="empType">
+            <label for="empType">Onsite</label>
+            <input type="radio" id="empType" name="empType">
+            <label for="empType">Work From Home</label>
+        </p>
+
+        <p>
+            Location : <br>
+            For onsite, please state your Workstation No., Department, Floor and Building.<br>
+            For work from home, please complete your address and include a landmark nearest to your location. <br>
+            <input type="text" size="65">
+        </p>
+
+        <p>
+            <label for="servReq"> Service Request Type :</label>
+            <select name="servReq" id="servReq" size="9" multiple>
+                <option value="desklapSetup">Desktop/Laptop Setup</option>
+                <option value="desklapSupp">Desktop/Laptop Support</option>
+                <option value="desklapMain">Desktop/Laptop Maintenance</option>
+                <option value="softIns">Software Installation</option>
+                <option value="softSupp">Software Support</option>
+                <option value="compperiSetup">Computer Peripheral Setup</option>
+                <option value="compperiTroub">Computer Peripheral Troubleshooting</option>
+                <option value="compperiMain">Computer Peripheral Maintenance</option>
+            </select>
+        </p>
+
+        <p>
+            Request Description :<br>
+            <textarea name="reqDescription" id="" cols="30" rows="10" placeholder="Explain your service request as details as possible"></textarea>
+        </p>
+
+        <p>
+            Upload a picture/screenshot for reference.
+            <input type="file" name="file">
+        </p>
+
+        <p>
+            <button type="button" onclick="alert('Thank you for submitting your request')">Submit</button>
+            <input type="reset" value="Reset">
+        </p>
+    </form>
+    </b>
+</body>
+</html>
