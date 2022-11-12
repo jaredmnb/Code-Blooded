@@ -1,0 +1,8 @@
+1.What is the difference between a comparison operator and an assignment operator?
+ Assignment operators change the value of the variable on the left of the operator. Comparison operators do not change any values, but return the booleans true or false depending on whether the JavaScript expression evaluates as true or false.
+
+ 2.What is a Boolean? What does it represent?
+Boolean means True or False. It can also be represented by 1 or 0. Boolean Expression is the expression that returns true or false.
+
+3.How is the += operator different than + operator?
+ += operator adds a value to a variable while + operator is often used to add together two values.
